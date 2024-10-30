@@ -1,0 +1,31 @@
+/* Make cardContainer responsive so that the cards are in a column when it is in mobile version */
+
+/* Challenge, make it so that it wraps into 2 rows when it hits tablet size and becomes column on mobile size */
+
+.cardContainer {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  min-width: 200px;
+  padding: 10px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px lightgray;
+  border-style: solid;
+  border-width: 1px;
+  border-color: lightgrey;
+}
+
+.cardImg {
+  width: auto;
+  height: 200px;
+  object-fit: cover;
+}
